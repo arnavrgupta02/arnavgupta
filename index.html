@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web/Software Developer</p>
+                <h1>Hi, I'm <span>ARNAV</span><br>GUPTA</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="4.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Eager to leverage technical skills in software engineering to contribute for innovative projects and solve real-world challenges. Proven
+                        ability to work collaboratively in a team and quickly adapt to new technologies</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>
+                                <ul>
+                                    <li>Python</li>  
+                                    <li>Java</li>  
+                                    <li>C</li> 
+                                    <li>HTML</li> 
+                                    <li>CSS</li>  
+                                    <li>JavaScript</li>    
+                                    <li>MySQL</li>   
+                                    <li>PHP</li>    
+                                    <li>AngularJS</li>
+                                </ul>
+                            </li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Problem Solving</span><br>DSA</li>
+                            <li><span>Programming </span><br>C,Java,Python</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Problem Solving</span><br>DSA</li>                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sep,2021 - Nov,2021</span><br>Artificial Intelligence Intern with Rinex Technologies</li>
+                            <li><span>Feb,2021 - March,2021</span><br>Softwaare Developer at Sahu Laghu Udyog </li>
+                            <li><span>June,2020 - July,2020</span><br>Software Developer at Ashoka Products</li>
+                            <li><span>June,2019 - June,2019 </span><br>Digital Video Producer for Swastik Polycoats Ltd.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Currently, B.Tech CSE from Presidency University Bangalore</li>
+                            <li><span>2019 - 2020</span><br>AISSCE(12th) at Venkateshwar Global School,Delhi</li>
+                            <li><span>2017 - 2018</span><br>AISSE(10th) at Venkateshwar Global School,Delhi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Professional Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>ML Development</h2>
+                    <p> ML Developer using python.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Full stack Developer ,django as a stack!</p>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Frontend Developer & Designing in figma.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg" alt="">
+                    <div class="layer">
+                        <h2>Notezy - Notes web app</h2>
+                        <p>The Notes App project is a web application developed using
+                            Django, a popular web framework in Python. The goal of this project is to create a simple yet powerful note-taking application
+                            that allows users to create, edit, and organize their notes efficiently
+                            (CRUD Operation).</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h2>ChatterJi</h2>
+                        <p>Chatterji is a comprehensive chatbot.The primary objective of this project is to identify and interpret user input and use classification
+                            and associative algorithm concepts to generate appropriate response,thereby engaging the user in a conversation.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Ecommerce - online shopping web app</h2>
+                        <p>The primary objective of this project is to create a feature-rich online shopping platform that provides users with an intuitive and
+                            seamless shopping experience!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> arnavrgupta2002@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +1 (289) 623-9630</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/arnavrgupta02"><i class="fab fa-github"></i></a>
+                        
+                        <a href="https://www.instagram.com/arnav.015/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/arnavrgupta02/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Arnav <i class="fas fa-heart"></i> Don't Copy My portfolio</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
