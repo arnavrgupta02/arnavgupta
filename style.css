@@ -130,7 +130,6 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
-    text-align: center;
 }
 .about-col-2 p{
     margin-top: 1rem;
@@ -138,7 +137,6 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
-    justify-content: center;
 }
 
 .tab-links {
