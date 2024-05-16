@@ -130,6 +130,7 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    text-align: center;
 }
 .about-col-2 p{
     margin-top: 1rem;
@@ -137,6 +138,7 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
+    justify-content: center;
 }
 
 .tab-links {
@@ -158,9 +160,9 @@ nav ul li a:hover::after {
     transition: 0.5s;
 }
 
-/* .tab-links:hover::after{
+.tab-links:hover::after{
 width: 100%;
-} */
+}
 .tab-links.active-link::after {
     width: 50%;
 }
@@ -202,7 +204,7 @@ width: 100%;
     line-height: 30 px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+    transition:  0.5s, transform 0.5s;
 }
 
 .services-list div i {
@@ -356,12 +358,12 @@ width: 100%;
     display: inline-block
 }
 
-.btn.btn3 {
+/* .btn.btn3 {
     background: #080808;
     margin-top: 30px;
     transition: background 0.5;
 
-}
+} */
 
 .btn.btn3:hover {
     background: #ff004f;
