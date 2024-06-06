@@ -452,6 +452,7 @@ nav .fas {
     /* Adjust the header image and text size for small screens */
     #header {
         background-image: url(3.jpg);
+        width: 150vw;
     }
 
     .header-text {
@@ -468,7 +469,7 @@ nav .fas {
     }
 
     /* Show the navigation menu on small screens */
-    nav ul {
+    nav{
         display: none;
     }
 
